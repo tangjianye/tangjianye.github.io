@@ -1,11 +1,11 @@
 ---
 layout: post  
-title:  Jenkins MAC节点配置  
+title:  MAC Jenkins节点配置  
 date:   2018-11-22 
 tags: [Tools]  
 categories: Tools  
 author: JayaTang  
-description: Jenkins MAC节点配置   
+description: MAC Jenkins节点配置   
 ---
 文档主要介绍Jenkins主从节点配置，文档的前提条件是有一台centos7虚拟机，虚拟机是master主机，mac机配置slave节点。具体的Jenkins配置请参考另外一篇文章[《Centos搭建Android CI环境》](https://tangjianye.github.io/android/2017/05/23/android-centos-jenkins)。现在以主机已经搭建最小化的Jenkins环境，从机已经搭建android和ios编译环境为例，介绍Jenkins节点配置。 
 
