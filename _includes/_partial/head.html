@@ -55,7 +55,25 @@
     {% if site.banner_img %}
     <style>
         body >header {
-            background: url("{{ site.assets }}/{{ site.banner_img }}") center #2ca6cb;
+            /* background: url("{{ site.assets }}/{{ site.banner_img }}") center #2ca6cb; */
+            background: none;
+            background-color: #159957;
+            background-image: linear-gradient(120deg, #155799, #159957);
+        }
+        /* 圆形logo样式 */
+        #imglogo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin: 0 auto;
+        }
+        #imglogo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
     </style>
     {% endif %}
